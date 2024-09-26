@@ -1,0 +1,6 @@
+input_1 = input("Name place\n>")
+input_2 = input("Name a job\n>")
+input_3 = input("Name a thing\n>")
+input_4 = input("Name another place\n>")
+input_5 = input("name an animal\n>")
+print ("In the far away distant land of " + input_1 + " there was a " + input_2 + ". The " + input_2 + " needed a " + input_3 + ". So they went to " + input_4 + " but on their way to " + input_4 + " they found a " + input_5 + " and befriended them. And so the " + input_2 + " got their " + input_3 + " lived with their " + input_5 + " in the land of " + input_5)
