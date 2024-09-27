@@ -1,4 +1,4 @@
-def greet():
-    print("Hello, world!")
-
-print("catdog")
+def calculate_tax(item, price, rate):
+    str(item)
+    float(price)
+    rate = (6.875)
