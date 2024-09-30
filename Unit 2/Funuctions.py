@@ -1,4 +1,4 @@
-def calculate_tax(item, price, rate):
-    str(item)
-    float(price)
-    rate = (6.875)
+def calculate_tax(item, price, rate):       #calculates tax
+    print(price * rate)
+
+calculate_tax("Baseball", 4.99, 0.06875)
