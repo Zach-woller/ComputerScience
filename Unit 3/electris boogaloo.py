@@ -1,0 +1,11 @@
+question_1 = int(input("What is 7 - 2\n>"))
+(question_1 == 5)
+question_2 = int(input("What is 10 + 7\n>"))
+(question_2 == 17)
+question_3 = int(input("What is 3 * 2\n>"))
+(question_3 == 6)
+question_4 = int(input("What is 4 * 2\n>"))
+(question_4 == 8)
+question_5 = int(input("Name a number less then 9\n>"))
+(question_5 < 9 )
+
