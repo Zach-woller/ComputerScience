@@ -3,7 +3,7 @@ import random
 def random_end():
     print
 
-weird_end = random.randint(1, 1000001)
+weird_end = random.randint(0, 1000001)
 
 if weird_end == 1: 
     random_end()
@@ -31,114 +31,56 @@ if health == 0:         #tracks health and plays a death screen if none is left
 
 
 
-def start_nate():       #start game with choosen character
-    print("You awake to the sound of explosion. You get up of the couch and look out the window to see a crashed helicopter in the middle of the street. Luckly since the whole city is under lockdown do to a pandemic no one was hurt apart from the pilot and the other people on the helicopter. as you think you see some people rush out of buildings as they do the crew of the helicopter jump out at them, attacking them as this happens a hoarde of what look like people approach from the right.")
-    print("what do you do?")
-    print("1. grab your stuff and run to the car")
-    print("2. hide in your apartment")
-    print("3. run out and help the people near the helicopter")
+    print
 
-    nate_choice_1 = input("> ")
-    
 
-    if nate_choice_1 == "1":
+def path_1():
+    print("As you in the back seat your dad says:")
+    print("Good thinking")
+    print("As the car drives down the road you see a traffic pile up")
+
+
+def start_jonas():     
+    print("You wake up to the sound of sirens stating:")
+    print("infection has breached contament!")
+    print("As this happens your mom yells:")
+    print("Grab what ever you can and get in the car")
+    print("1. Grab your dads hunting shotgun")
+    print("2. Grab some medicine")
+    print("3. Grab  cds and magazines")
+    print("4. Exit game")
+
+    start_jonas_choice = input("> ")
+
+    if start_jonas_choice == "1":
         print
-
-def start_rose():       #start game with choosen character
-    print  
-
-def start_robbie():     #start game with choosen character
-    print
-
-def start_jonas():      #start game with choosen character
-    print
-
-def nate():             #tells player what the character has and who they are
-    print("Nate is a 45 year old retired firefighter who resides in a small apartment in the Bronx. He has a backpack with 3 days of canned food and water. He owns a car and survival hatchet.")
-    print ("1. start journey")
-    print ("2. choose different character")
-
-    character_1 = input("> ")
-
-    if character_1 == "1":
-        start_nate()
-    elif character_1 == "2":
-        character_menu()
+    elif start_jonas_choice == "2":
+        print
+    elif start_jonas_choice == "3":
+        print
+    elif start_jonas_choice == "4":
+        print("ending program")
     else:
         print("ERROR Unexpected input")
-        nate()
-
-def rose():             #tells player what the character has and who they are
-    print("Rose is a 22 year old barista who works at starbucks. She owns a apartment in Manhattan. her purse has 2 days of canned food and water.")
-    print ("1. start journey")
-    print ("2. choose different character")
-
-    character_2 = input("> ")
-
-    if character_2 == "1":
-        start_rose()
-    elif character_2 == "2":
-        character_menu()
-    else:
-        print("ERROR Unexpected input")
-        rose()
-
-def robbie():           #tells player what the character has and who they are
-    print("Robbie is a 26 year old artist living Brooklyln. He is living out of his car he has a plasic bag with 5 days of food and water. he owns a  swiss army knife.")
-    print ("1. start journey")
-    print ("2. choose different character")
-
-    character_2 = input("> ")
-
-    if character_2 == "1":
-        start_robbie()
-    elif character_2 == "2":
-        character_menu()
-    else:
-        print("ERROR Unexpected input")
-        robbie()
-
-def jonas():            #tells player what the character has and who they are
-    print("Jonas is a 19 year old college student. he lives with with his mom and dad in a quaint little neighborhood in Queens. He owns a moped and has a tazer for self defence. he has 4 days of food and water.")
-    print ("1. start journey")
-    print ("2. choose different character")
-
-    character_2 = input("> ")
-
-    if character_2 == "1":
         start_jonas()
-    elif character_2 == "2":
-        character_menu()
-    else:
-        print("ERROR Unexpected input")
-        jonas()
 
-def character_menu():   #one of two menus
+def character_menu():   
     print("The year is 1998. A zombie virus has taken the world by storm. it is unknown how it came to but its here now. You are living in new york.  You need to leave")
-    print("choose your character")
-    print("1. Nate") 
-    print("2. Rose")
-    print("3. Robbie")
-    print("4. Jonas")
-    print("5. return to menu")
+    print("You are jonas a 19 year old college student. he lives with with his mom and dad in a quaint little neighborhood in Queens. He owns a taser for self defence. his family has a weeks worth of food and water.")
+    print ("1. start")
+    print ("2. Back")
 
-    character = input("> ")
-    
-    if character == "1": 
-        nate()
-    elif character == "2":
-        rose()
-    elif character == "3":
-        robbie()
-    elif character == "4":
-        jonas()
-    elif character == "5":
+    start = input("> ")
+
+    if start == "1":
+        start_jonas()
+    elif start == "2":
         start_menu()
     else:
         print("ERROR Unexpected input")
         character_menu()
 
-def start_menu():       #one of two menus
+def start_menu():       #menu
     print("ROAD TO DULUTH")
     print(" ")
     print(" ")
