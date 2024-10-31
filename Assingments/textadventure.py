@@ -37,7 +37,7 @@ if health == 0:         #tracks health and plays a death screen if none is left
 def path_1():
     print("As you in the back seat your dad says:")
     print("Good thinking")
-    print("As the car drives down the road you see a traffic pile up")
+    print("As the car drives down the road you see a traffic traffic jam")
 
 
 def start_jonas():     
@@ -65,7 +65,7 @@ def start_jonas():
         start_jonas()
 
 def character_menu():   
-    print("The year is 1998. A zombie virus has taken the world by storm. it is unknown how it came to but its here now. You are living in new york.  You need to leave")
+    print("The year is 1998. A zombie virus has taken the world by storm. it is unknown how it came to but its here now. You are living in New York.  You need to leave")
     print("You are jonas a 19 year old college student. he lives with with his mom and dad in a quaint little neighborhood in Queens. He owns a taser for self defence. his family has a weeks worth of food and water.")
     print ("1. start")
     print ("2. Back")
