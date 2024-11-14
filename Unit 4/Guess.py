@@ -11,7 +11,7 @@ except:
     print("hmm")
 
 while random_number != guess:
-    guess = +1
+    guess = + 1
     guess = int(input("Guess a number between 1 and 100\n>"))
     guess = int(guess)
     if guess < random_number:
